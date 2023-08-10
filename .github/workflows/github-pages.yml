@@ -1,0 +1,10 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  udf-job-name:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello"
